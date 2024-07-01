@@ -30,7 +30,7 @@
    ```
 3. 運行腳本:
    ```bash
-   python 你的腳本名稱.py
+   python scrape_requests_html.py
    ```
 5. 自動爬取網站的所有頁面，並將結果保存在`scrape_reques_html.xlsx`文件中。
 
