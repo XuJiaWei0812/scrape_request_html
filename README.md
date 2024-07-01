@@ -25,17 +25,19 @@
 ## 如何使用
 
 1. 安裝必要的庫:
+   
    ```bash
    pip install requests fake_useragent beautifulsoup4 openpyxl
    ```
 3. 運行腳本:
+   
    ```bash
    python scrape_requests_html.py
    ```
-5. 自動爬取網站的所有頁面，並將結果保存在`scrape_reques_html.xlsx`文件中。
+5. 自動爬取網站的所有頁面，並將結果保存在 `scrape_reques_html.xlsx` 文件中。
 
 ## 注意事項
 
 - 本腳本僅供學習和研究使用
-- 請遵守網站的robots.txt規則和使用條款
+- 請遵守網站的 `robots.txt` 規則和使用條款
 - 爬取過程中設有隨機延遲,以避免對目標網站造成過大壓力
