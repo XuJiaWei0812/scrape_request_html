@@ -10,17 +10,17 @@
 
 ## 使用的庫
 
-- requests: 用於發送HTTP請求
-- fake_useragent: 生成隨機User-Agent
-- BeautifulSoup: 解析HTML
-- openpyxl: 操作Excel檔案
+- `requests` : 用於發送HTTP請求
+- `fake_useragent` : 生成隨機User-Agent
+- `BeautifulSoup` : 解析HTML
+- `openpyxl` : 操作Excel檔案
 
 ## 主要功能
 
-1. `get_fetch_html()`: 獲取HTML頁面
-2. `parse_list_html()`: 解析列表頁面,提取詳細頁面URL
-3. `parse_detail_html()`: 解析詳細頁面,提取電影資訊
-4. `write_to_excel()`: 將資料寫入Excel檔案
+1. `get_fetch_html()` : 獲取HTML頁面
+2. `parse_list_html()` : 解析列表頁面,提取詳細頁面URL
+3. `parse_detail_html()` : 解析詳細頁面,提取電影資訊
+4. `write_to_excel()` : 將資料寫入Excel檔案
 
 ## 如何使用
 
