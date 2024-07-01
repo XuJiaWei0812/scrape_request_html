@@ -7,8 +7,6 @@ import sys
 import os
 from openpyxl import Workbook, load_workbook
 
-# 主要是用來練習與整理 requests 爬取"靜態頁面"時的方法
-
 # 獲取 HTML 頁面
 def get_fetch_html(url, session, headers):
     try:
