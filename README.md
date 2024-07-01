@@ -24,9 +24,15 @@
 
 ## 如何使用
 
-1. 安裝必要的庫: pip install requests fake_useragent beautifulsoup4 openpyxl
-2. 運行腳本: python 你的腳本名稱.py
-3. 自動爬取網站的所有頁面，並將結果保存在`scrape_reques_html.xlsx`文件中。
+1. 安裝必要的庫:
+   ```bash
+   pip install requests fake_useragent beautifulsoup4 openpyxl
+   ```
+3. 運行腳本:
+   ```bash
+   python 你的腳本名稱.py
+   ```
+5. 自動爬取網站的所有頁面，並將結果保存在`scrape_reques_html.xlsx`文件中。
 
 ## 注意事項
 
